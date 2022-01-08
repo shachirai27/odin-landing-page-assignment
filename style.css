@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top-section {
     background-color: #1F2937;
+   height: 500px;
 }
 
 .header {
     width: 900px;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
 }
 
 .navbar {
@@ -30,6 +38,37 @@ body {
 }
 
 .nav-links .nav a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-end;
+}
+
+.header-text {
+    color: #F9FAF8;
+  
+}
+
+.header-image img{
+    height: 200px;
+    width: 400px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+}
+
+.sign-up a {
     color: #F9FAF8;
     text-decoration: none;
 }
