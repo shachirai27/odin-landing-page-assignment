@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+.top-section {
+    background-color: #1F2937;
+}
+
+.header {
+    width: 900px;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.nav-links .nav a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
