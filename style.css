@@ -217,3 +217,17 @@ body {
     font-weight: 700;
     text-decoration: none;
 }
+
+.footer-container {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-weight: 300;
+    font-size: 12px;
+}
